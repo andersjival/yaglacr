@@ -16,6 +16,7 @@ export const Navbar: React.FC<NavbarProps> = ({ totalItems, onOpenCart }) => {
     { name: 'INICIO', href: '#inicio' },
     { name: 'TIENDA', href: '#productos' },
     { name: 'CATEGORÍAS', href: '#categorias' },
+    { name: 'SUPER PROMO 🔥', href: '#promocion' },
     { name: 'KERA-APPLE', href: '#kera-apple' },
     { name: 'NUESTRA PROMESA', href: '#promesa' },
     { name: 'CONTACTO', href: '#contacto' },

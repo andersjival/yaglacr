@@ -2,6 +2,30 @@ import { Product } from '../types/ecommerce';
 
 export const PRODUCTS: Product[] = [
   {
+    id: 'duo-crecimiento-promo',
+    name: 'Super Promoción: 2x Fórmulas de Crecimiento',
+    subtitle: '2 Frascos Gotero Botánico de 50ml con Argán, Romero, Almendras & Bergamota',
+    category: 'Tónicos Anticaída',
+    categorySlug: 'tonicos',
+    price: 10000,
+    originalPrice: 20000,
+    rating: 5.0,
+    reviewCount: 246,
+    image: '/images/promo-crecimiento.png',
+    badge: 'SUPER PROMO ₡10.000 🔥',
+    description: '¡Oferta especial por tiempo limitado! Llévate 2 frascos de nuestra potente Fórmula de Crecimiento Capilar Yaglar por solo ₡10.000. Formulado con aceites esenciales puros de romero, argán, almendras dulces y bergamota para frenar la caída, nutrir el folículo y acelerar el nacimiento de nuevo cabello.',
+    benefits: [
+      '2 frascos de 50ml por solo ₡10.000 (Ahorras 50% / ₡10.000 de descuento)',
+      'Activa la microcirculación y estimula el nacimiento de nuevos cabellos',
+      'Frena la caída estacional y fortalece la raíz desde la primera semana',
+      'Sin químicos agresivos, sin minoxidil sintético ni efecto rebote',
+    ],
+    ingredients: 'Aceite de romero botánico puro, aceite de argán virgen prensado en frío, aceite de almendras dulces, esencia pura de bergamota, vitamina E y bio-activos capilares.',
+    usage: 'Aplica de 6 a 8 gotas directamente sobre las zonas del cuero cabelludo donde desees mayor densidad o crecimiento. Masajea circularmente con las yemas durante 3 minutos cada noche. No enjuagar.',
+    volume: '2 Frascos x 50ml (100ml total)',
+    isBestSeller: true,
+  },
+  {
     id: 'kera-apple-shampoo',
     name: 'Shampoo Kera-Apple Revitalizante',
     subtitle: 'Extracto natural de Manzana Verde & Queratina Vegetal',

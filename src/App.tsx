@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ValuePillars } from './components/ValuePillars';
 import { CategoryGrid } from './components/CategoryGrid';
+import { SpecialPromo } from './components/SpecialPromo';
 import { KeraAppleBanner } from './components/KeraAppleBanner';
 import { ProductGrid } from './components/ProductGrid';
 import { OurPromise } from './components/OurPromise';
@@ -72,17 +73,23 @@ export const App: React.FC = () => {
         {/* 3. Explore by Category */}
         <CategoryGrid onSelectCategory={handleScrollToProducts} />
 
-        {/* 4. Mid-Banner: Feature Banner with the girl holding Kera-Apple */}
+        {/* 4. Super Promoción Especial de la Semana */}
+        <SpecialPromo
+          onAddToCart={(p) => addToCart(p, 1)}
+          onQuickView={(p) => setQuickViewProduct(p)}
+        />
+
+        {/* 5. Mid-Banner: Feature Banner with the girl holding Kera-Apple */}
         <KeraAppleBanner onCtaClick={handleOpenKeraAppleProduct} />
 
-        {/* 5. Best Sellers Product Grid */}
+        {/* 6. Best Sellers Product Grid */}
         <ProductGrid
           onAddToCart={(p) => addToCart(p, 1)}
           onQuickView={(p) => setQuickViewProduct(p)}
           selectedCategorySlug={selectedCategory}
         />
 
-        {/* 6. Our Promise Bar */}
+        {/* 7. Our Promise Bar */}
         <OurPromise />
       </main>
 

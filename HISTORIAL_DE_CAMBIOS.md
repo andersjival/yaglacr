@@ -13,6 +13,12 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.4 — Sección de Super Promoción Especial (2x Fórmulas de Crecimiento ₡10.000)
+- Creación del componente `SpecialPromo.tsx` para destacar la oferta flash "2x Fórmulas de Crecimiento por ₡10.000 (Válido solo esta semana)".
+- Integración del flyer oficial (`promo-crecimiento.png`) con interactividad: botón de compra inmediata por WhatsApp y botón de adición directa al carrito.
+- Alta del producto promocional `duo-crecimiento-promo` en el catálogo con 50% de descuento y ficha técnica botánica completa.
+- Incorporación del enlace directo "SUPER PROMO 🔥" en la barra de navegación principal.
+
 ## 🚀 Versión 1.0.3 — Integración Producto Real Mascarilla Shiny Bomba
 - Incorporación de fotografía real del producto `Shiny Bomba` (`shiny-bomba.png`) al catálogo principal y a la categoría de Mascarillas Capilares.
 - Actualización de ficha técnica con datos del envase original: volumen 500 ml / 17.5 fl. oz, modo de uso (masaje 5 min), e ingredientes botánicos (aceite de coco, manteca de karité, almendras, oliva, queratina vegetal, ácido hialurónico y vitamina E).
