@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 interface KeraAppleBannerProps {
   onCtaClick: () => void;
@@ -7,49 +7,43 @@ interface KeraAppleBannerProps {
 
 export const KeraAppleBanner: React.FC<KeraAppleBannerProps> = ({ onCtaClick }) => {
   return (
-    <section id="kera-apple" className="py-12 sm:py-20 bg-gradient-to-b from-[#FAF8F5] via-[#EFF4EB] to-[#FAF8F5]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="kera-apple" className="py-8 sm:py-14 bg-gradient-to-b from-[#FAF8F5] via-[#EFF4EB] to-[#FAF8F5]">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Banner Container with high-end editorial frame */}
-        <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#D5E0CC] bg-[#E5ECE0] transition-all duration-500 hover:shadow-2xl group">
-          
-          {/* Main Panorama Image Provided by User */}
-          <div className="relative w-full aspect-[2.8/1] min-h-[300px] sm:min-h-[420px] lg:min-h-[480px]">
+        {/* Banner Container with natural proportions and zero cropping */}
+        <div
+          onClick={onCtaClick}
+          className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-md hover:shadow-2xl border border-[#D5E0CC] bg-[#E8ECE2] transition-all duration-300 group cursor-pointer"
+          title="Click para ver la fórmula Kera-Apple"
+        >
+          {/* Main Panorama Image: 100% natural scaling so the model and bottle are never cropped */}
+          <div className="w-full relative overflow-hidden">
             <img
               src="/images/banner-kera-apple.png"
               alt="Cuidado Natural para un Cabello Fuerte y Hermoso - Kera-Apple Yaglar"
-              className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.01]"
+              className="w-full h-auto block select-none transition-transform duration-500 group-hover:scale-[1.01]"
+              loading="lazy"
             />
-
-            {/* Clickable Overlay Link covering the "COMPRAR AHORA" area on left side */}
-            <div className="absolute inset-0 flex flex-col justify-end sm:justify-center p-6 sm:p-12 lg:p-16">
-              <div className="max-w-xl">
-                {/* Interactive Action Button aligned with the banner button */}
-                <button
-                  onClick={onCtaClick}
-                  className="mt-4 sm:mt-8 inline-flex items-center gap-3 px-8 py-3.5 rounded-md bg-[#4E673C] hover:bg-[#384C2A] text-white text-xs sm:text-sm font-semibold tracking-widest uppercase shadow-lg hover:shadow-xl transition-all duration-300 transform active:scale-95 group/btn"
-                >
-                  <Sparkles className="w-4 h-4 text-[#C9E0BC]" />
-                  <span>COMPRAR LÍNEA KERA-APPLE</span>
-                  <ArrowRight className="w-4 h-4 transition-transform group-hover/btn:translate-x-1" />
-                </button>
-              </div>
-            </div>
           </div>
 
-          {/* Quick info bar below banner for enhanced clarity on mobile */}
-          <div className="bg-[#37492A] text-white py-4 px-6 flex flex-wrap items-center justify-between gap-4 text-xs">
+          {/* Quick info bar below banner for enhanced clarity and action */}
+          <div className="bg-[#37492A] text-white py-3 px-5 sm:px-6 flex flex-wrap items-center justify-between gap-3 text-xs">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#8CA675] animate-ping" />
-              <span className="font-semibold tracking-wider uppercase">Fórmula Exclusiva Yaglar Costa Rica</span>
+              <span className="font-semibold tracking-wider uppercase text-[11px] sm:text-xs">
+                Fórmula Exclusiva Yaglar Costa Rica
+              </span>
             </div>
-            <div className="flex items-center gap-6 text-[#D7E4D0] font-medium">
+            <div className="flex items-center gap-4 sm:gap-6 text-[#D7E4D0] font-medium text-[11px] sm:text-xs">
               <span>🌿 100% Extractos Naturales</span>
-              <span>🐇 Libre de Crueldad Animal</span>
+              <span>🐇 Libre de Crueldad</span>
               <span>💚 Hecho con Amor</span>
             </div>
+            <div className="inline-flex items-center gap-1.5 text-[#C9E0BC] font-semibold text-xs group-hover:translate-x-1 transition-transform ml-auto sm:ml-0">
+              <span>Ver Producto Kera-Apple</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
           </div>
-
         </div>
 
       </div>
