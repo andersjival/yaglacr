@@ -50,7 +50,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'kera-apple-mascarilla',
-    name: 'Mascarilla Capilar Reparación Profunda',
+    name: 'Mascarilla Restauradora Shiny Bomb',
     subtitle: 'Tratamiento Intensivo de Keratina & Aceite de Argán',
     category: 'Mascarillas Capilares',
     categorySlug: 'mascarillas',
@@ -59,8 +59,8 @@ export const PRODUCTS: Product[] = [
     rating: 5.0,
     reviewCount: 116,
     image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80',
-    badge: 'RESTAURADOR PRO',
-    description: 'Terapia de rescate intensivo para cabellos con daño térmico o químico. Rellena las micro-fracturas de la hebra capilar devolviendo elasticidad y fuerza.',
+    badge: 'SHINY BOMB ⭐',
+    description: 'Nuestra aclamada mascarilla Shiny Bomb repara a profundidad el cabello maltratado, resecado o procesado, restaurando brillo extremo y sedosidad.',
     benefits: [
       'Recuperación visible desde la primera aplicación',
       'Reduce la rotura del cabello hasta en un 87%',
@@ -96,8 +96,8 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'kera-apple-tonico',
-    name: 'Tónico Anticaída Estimulante Raíz Fuerte',
-    subtitle: 'Loción Botánica Cuero Cabelludo con Romero & Manzana',
+    name: 'Gotero Fórmula de Crecimiento & Anticaída',
+    subtitle: 'Loción Botánica Cuero Cabelludo con Romero, Manzana & Biotina',
     category: 'Tónicos Anticaída',
     categorySlug: 'tonicos',
     price: 15000,
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
     rating: 4.9,
     reviewCount: 88,
     image: 'https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=800&q=80',
-    badge: 'CRECIMIENTO',
+    badge: 'CRECIMIENTO ⭐',
     description: 'Solución concentrada sin enjuague para el cuero cabelludo que activa la microcirculación, combate la caída estacional y fortalece los nuevos brotes.',
     benefits: [
       'Estimula la fase anágena de crecimiento del cabello',

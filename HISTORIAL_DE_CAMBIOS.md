@@ -13,6 +13,12 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.2 — Integración Banner Principal Hero (Productos Yaglar en Fondo)
+- Incorporación de la imagen oficial de productos Yaglar (`hero-yaglar.png`) en el Hero superior, calcando exactamente la composición estética de referencia Purevia Botanicals.
+- Fondo cálido armonizado (`#F4EFE6`) para integración fluida sin saltos visuales ni recortes en pantallas ultra-wide.
+- Zona de clic interactiva optimizada sobre el botón "COMPRAR AHORA" para scroll suave a los productos.
+- Sincronización del catálogo con los productos mostrados en la fotografía (Shampoo Kera-Apple, Acondicionador Kera-Apple, Mascarilla Shiny Bomb, Gotero Fórmula de Crecimiento).
+
 ## 🚀 Versión 1.0.1 — Ajuste Proporcional Banner Kera-Apple
 - Eliminación de alturas mínimas forzadas (`min-h-[480px]`) y `object-cover` en el banner central de la muchacha.
 - Implementación de escalado proporcional natural (`w-full h-auto block`) en contenedor `max-w-6xl` para garantizar visibilidad completa del 100% de la imagen, sin cortes en la modelo ni en el producto.
