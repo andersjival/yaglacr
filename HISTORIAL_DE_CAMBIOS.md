@@ -13,6 +13,12 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.6 — Sección Especial Kit Completo Ritual Maestro (7 Productos)
+- Creación del componente `MasterKitSection.tsx` para presentar la colección completa oficial en su fotografía original (`kit-completo-yaglar.jpg`).
+- Desglose detallado de los 7 productos que componen el kit: Shampoo Kera-Apple (500ml), Acondicionador (300ml), Mascarilla Shiny Bomba (500ml), Perfume Desenredante Termoprotector (200ml), Gotero Crecimiento (50ml), Serum Shiny Oil y Ampolla Booster Concentrada.
+- Configuración de precio de paquete a ₡45.000 (ahorro de ₡20.000 sobre el valor individual de ₡65.000) con Envío Gratis y botones de adición al carrito y pedido por WhatsApp.
+- Inclusión del acceso directo "KIT COMPLETO ✨" en la barra de navegación principal.
+
 ## 🚀 Versión 1.0.5 — Integración Pack Trío Kera-Apple & Crecimiento
 - Incorporación de la fotografía oficial del pack (`pack-kera-apple-trio.png`) mostrando el trío real: Shampoo Kera-Apple (500ml), Acondicionador Kera-Apple (300ml) y Gotero de Crecimiento (50ml).
 - Ficha técnica completa con ingredientes reales de los envases (keratina, argán, ricino, aguacate, almendras, bergamota y vitamina E).

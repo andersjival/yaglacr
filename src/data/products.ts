@@ -2,6 +2,30 @@ import { Product } from '../types/ecommerce';
 
 export const PRODUCTS: Product[] = [
   {
+    id: 'kit-completo-ritual-maestro',
+    name: 'Kit Completo Ritual Maestro Yaglar (7 Productos)',
+    subtitle: 'La Colección Botánica Definitiva: Limpieza, Crecimiento, Shiny Bomba, Perfume, Gotero, Shiny Oil & Ampolla Booster',
+    category: 'Kits & Rutinas',
+    categorySlug: 'kits',
+    price: 45000,
+    originalPrice: 65000,
+    rating: 5.0,
+    reviewCount: 312,
+    image: '/images/kit-completo-yaglar.jpg',
+    badge: 'KIT COMPLETO VIP ⭐',
+    description: 'El ritual capilar más completo y exclusivo de Costa Rica. Contiene los 7 productos estrella de Yaglar formulados con extractos botánicos puros, aceites esenciales y keratina vegetal para restaurar, proteger, densificar y otorgar brillo deslumbrante a cada hebra de tu melena.',
+    benefits: [
+      'Incluye los 7 productos esenciales: Shampoo Kera-Apple 500ml, Acondicionador 300ml, Mascarilla Shiny Bomba, Perfume Desenredante 200ml, Gotero Crecimiento 50ml, Shiny Oil Serum y Ampolla Booster Folicular',
+      'Ahorras ₡20.000 comparado con la adquisición individual (₡45.000 vs ₡65.000)',
+      'Rutina completa de 360°: lavado, nutrición profunda, desenredo, protección térmica, crecimiento folicular y sellado de puntas',
+      '¡Envío GRATIS asegurado a todo Costa Rica con entrega rápida!',
+    ],
+    ingredients: 'Formulaciones botánicas completas con keratina vegetal pura, aceite de romero, manteca de karité, aceites de argán, ricino, aguacate, almendras dulces, esencia de bergamota, ácido hialurónico y vitaminas E y B5.',
+    usage: 'Sigue el ritual de cuidado completo: 1. Shampoo Kera-Apple, 2. Acondicionador Kera-Apple, 3. Mascarilla Shiny Bomba (1-2 veces por semana), 4. Perfume Desenredante sobre cabello húmedo o seco, 5. Gotero de Crecimiento en el cuero cabelludo cada noche, 6. Gotas de Shiny Oil en puntas, y 7. Ampolla Booster como terapia de rescate.',
+    volume: 'Set Completo de 7 Productos',
+    isBestSeller: true,
+  },
+  {
     id: 'duo-crecimiento-promo',
     name: 'Super Promoción: 2x Fórmulas de Crecimiento',
     subtitle: '2 Frascos Gotero Botánico de 50ml con Argán, Romero, Almendras & Bergamota',
