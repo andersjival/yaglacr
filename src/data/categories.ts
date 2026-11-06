@@ -21,8 +21,8 @@ export const CATEGORIES: Category[] = [
     id: 'mascarillas',
     name: 'Mascarillas Capilares',
     slug: 'mascarillas',
-    subtitle: 'Reparación Profunda',
-    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=80',
+    subtitle: 'Shiny Bomba & Reparación',
+    image: '/images/shiny-bomba.png',
     itemCount: 3,
   },
   {

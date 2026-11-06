@@ -13,6 +13,11 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.3 — Integración Producto Real Mascarilla Shiny Bomba
+- Incorporación de fotografía real del producto `Shiny Bomba` (`shiny-bomba.png`) al catálogo principal y a la categoría de Mascarillas Capilares.
+- Actualización de ficha técnica con datos del envase original: volumen 500 ml / 17.5 fl. oz, modo de uso (masaje 5 min), e ingredientes botánicos (aceite de coco, manteca de karité, almendras, oliva, queratina vegetal, ácido hialurónico y vitamina E).
+- Actualización del Kit Completo Rutina Kera-Apple & Shiny Bomba (Trío).
+
 ## 🚀 Versión 1.0.2 — Integración Banner Principal Hero (Productos Yaglar en Fondo)
 - Incorporación de la imagen oficial de productos Yaglar (`hero-yaglar.png`) en el Hero superior, calcando exactamente la composición estética de referencia Purevia Botanicals.
 - Fondo cálido armonizado (`#F4EFE6`) para integración fluida sin saltos visuales ni recortes en pantallas ultra-wide.
