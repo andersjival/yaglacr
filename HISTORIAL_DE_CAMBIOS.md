@@ -13,6 +13,11 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.5 — Integración Pack Trío Kera-Apple & Crecimiento
+- Incorporación de la fotografía oficial del pack (`pack-kera-apple-trio.png`) mostrando el trío real: Shampoo Kera-Apple (500ml), Acondicionador Kera-Apple (300ml) y Gotero de Crecimiento (50ml).
+- Ficha técnica completa con ingredientes reales de los envases (keratina, argán, ricino, aguacate, almendras, bergamota y vitamina E).
+- Configuración de precio promocional de ₡28.000 con Envío Gratis en Costa Rica y actualización de thumbnail en la categoría "Packs & Rutinas".
+
 ## 🚀 Versión 1.0.4 — Sección de Super Promoción Especial (2x Fórmulas de Crecimiento ₡10.000)
 - Creación del componente `SpecialPromo.tsx` para destacar la oferta flash "2x Fórmulas de Crecimiento por ₡10.000 (Válido solo esta semana)".
 - Integración del flyer oficial (`promo-crecimiento.png`) con interactividad: botón de compra inmediata por WhatsApp y botón de adición directa al carrito.

@@ -43,10 +43,10 @@ export const CATEGORIES: Category[] = [
   },
   {
     id: 'kits',
-    name: 'Kits & Rutinas',
+    name: 'Packs & Rutinas',
     slug: 'kits',
     subtitle: 'Ahorro & Resultados',
-    image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80',
+    image: '/images/pack-kera-apple-trio.png',
     itemCount: 3,
   },
 ];
