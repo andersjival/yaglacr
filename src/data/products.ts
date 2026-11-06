@@ -2,6 +2,30 @@ import { Product } from '../types/ecommerce';
 
 export const PRODUCTS: Product[] = [
   {
+    id: 'kit-playa-proteccion-tropical',
+    name: 'Kit Playa & Protección Tropical Yaglar (Edición Costa)',
+    subtitle: 'Blindaje Anti-Sol, Salitre y Cloro: Shampoo, Acondicionador, Shiny Bomba, Perfume, Gotero, Shiny Oil & Booster',
+    category: 'Kits & Rutinas',
+    categorySlug: 'kits',
+    price: 42000,
+    originalPrice: 60000,
+    rating: 5.0,
+    reviewCount: 179,
+    image: '/images/kit-playa-tropical.jpg',
+    badge: 'EDICIÓN PLAYA 🌊',
+    description: 'La protección capilar obligatoria para tus días de playa, piscina y vacaciones en Costa Rica. Protege la fibra del calor intenso, la salinidad del mar y el cloro con activos botánicos hidratantes, dejando tu melena suave, manejable y con brillo radiante.',
+    benefits: [
+      'Escudo termo-protector contra la radiación UV y la sequedad provocada por el agua salada',
+      'Incluye el Perfume Desenredante para desenredar suavemente al salir del mar o la piscina',
+      'Mascarilla Shiny Bomba y Shiny Oil para restaurar la hidratación perdida',
+      '¡Envío GRATIS asegurado a todo Costa Rica!',
+    ],
+    ingredients: 'Extractos botánicos ultra-nutritivos, aceites puros de argán, coco, ricino, almendras, manteca de karité, keratina vegetal y filtros protectores naturales.',
+    usage: 'Aplica el Perfume Desenredante antes y durante la exposición al sol/mar. Al finalizar el día, lava con Shampoo y Acondicionador Kera-Apple y nutre con la Mascarilla Shiny Bomba.',
+    volume: 'Set Completo Edición Playa',
+    isBestSeller: true,
+  },
+  {
     id: 'kit-completo-ritual-maestro',
     name: 'Kit Completo Ritual Maestro Yaglar (7 Productos)',
     subtitle: 'La Colección Botánica Definitiva: Limpieza, Crecimiento, Shiny Bomba, Perfume, Gotero, Shiny Oil & Ampolla Booster',

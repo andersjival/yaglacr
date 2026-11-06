@@ -13,6 +13,12 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.7 — Sección Especial Kit Playa & Protección Tropical
+- Creación del componente `TropicalKitSection.tsx` para presentar la colección costera Yaglar con su fotografía original en la playa ([`kit-playa-tropical.jpg`](file:///c:/Users/User/Desktop/GeoSoft/CUENTA%20ANDERSJIVAL/CLIENTES%20WEBS/YAGLAR/public/images/kit-playa-tropical.jpg)).
+- Enfoque temático de protección capilar contra factores costeros de Costa Rica: sol intenso, salinidad del mar, cloro de piscinas y humedad tropical.
+- Configuración de precio de paquete a ₡42.000 (ahorro de ₡18.000 vs ₡60.000 individual) con Envío Gratis y alta en el catálogo (`kit-playa-proteccion-tropical`).
+- Acceso directo "KIT PLAYA 🌊" incorporado en el menú de navegación superior.
+
 ## 🚀 Versión 1.0.6 — Sección Especial Kit Completo Ritual Maestro (7 Productos)
 - Creación del componente `MasterKitSection.tsx` para presentar la colección completa oficial en su fotografía original (`kit-completo-yaglar.jpg`).
 - Desglose detallado de los 7 productos que componen el kit: Shampoo Kera-Apple (500ml), Acondicionador (300ml), Mascarilla Shiny Bomba (500ml), Perfume Desenredante Termoprotector (200ml), Gotero Crecimiento (50ml), Serum Shiny Oil y Ampolla Booster Concentrada.

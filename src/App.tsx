@@ -6,6 +6,7 @@ import { ValuePillars } from './components/ValuePillars';
 import { CategoryGrid } from './components/CategoryGrid';
 import { SpecialPromo } from './components/SpecialPromo';
 import { MasterKitSection } from './components/MasterKitSection';
+import { TropicalKitSection } from './components/TropicalKitSection';
 import { KeraAppleBanner } from './components/KeraAppleBanner';
 import { ProductGrid } from './components/ProductGrid';
 import { OurPromise } from './components/OurPromise';
@@ -89,7 +90,13 @@ export const App: React.FC = () => {
         {/* 6. Mid-Banner: Feature Banner with the girl holding Kera-Apple */}
         <KeraAppleBanner onCtaClick={handleOpenKeraAppleProduct} />
 
-        {/* 6. Best Sellers Product Grid */}
+        {/* 7. Sección Especial Kit Playa & Protección Tropical */}
+        <TropicalKitSection
+          onAddToCart={(p) => addToCart(p, 1)}
+          onQuickView={(p) => setQuickViewProduct(p)}
+        />
+
+        {/* 8. Best Sellers Product Grid */}
         <ProductGrid
           onAddToCart={(p) => addToCart(p, 1)}
           onQuickView={(p) => setQuickViewProduct(p)}
