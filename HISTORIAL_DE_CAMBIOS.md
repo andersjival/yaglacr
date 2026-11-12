@@ -13,6 +13,11 @@ Cualquier funcionalidad registrada aquí está blindada: ninguna IA puede elimin
 
 ---
 
+## 🚀 Versión 1.0.8 — Pantalla de Bloqueo por Código (Cortina de Acceso Privado)
+- Creación del componente `AccessGate.tsx` con cortina translúcida de alta opacidad y desenfoque (`blur(28px)`) que bloquea totalmente la visibilidad y scroll de la web hasta su desbloqueo.
+- Configuración del código maestro de acceso: `7777`, con campo de texto neutro sin sugerencias de dígitos, botón para alternar visibilidad y validación con mensaje de error en caso de código incorrecto.
+- Persistencia de sesión segura en `sessionStorage` para mantener la navegación fluida tras la autenticación.
+
 ## 🚀 Versión 1.0.7 — Sección Especial Kit Playa & Protección Tropical
 - Creación del componente `TropicalKitSection.tsx` para presentar la colección costera Yaglar con su fotografía original en la playa ([`kit-playa-tropical.jpg`](file:///c:/Users/User/Desktop/GeoSoft/CUENTA%20ANDERSJIVAL/CLIENTES%20WEBS/YAGLAR/public/images/kit-playa-tropical.jpg)).
 - Enfoque temático de protección capilar contra factores costeros de Costa Rica: sol intenso, salinidad del mar, cloro de piscinas y humedad tropical.

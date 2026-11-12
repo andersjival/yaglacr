@@ -13,6 +13,7 @@ import { OurPromise } from './components/OurPromise';
 import { Footer } from './components/Footer';
 import { CartDrawer } from './components/CartDrawer';
 import { ProductQuickView } from './components/ProductQuickView';
+import { AccessGate } from './components/AccessGate';
 import { PRODUCTS } from './data/products';
 
 export const App: React.FC = () => {
@@ -135,6 +136,9 @@ export const App: React.FC = () => {
         onClose={() => setQuickViewProduct(null)}
         onAddToCart={(p, qty) => addToCart(p, qty)}
       />
+
+      {/* Access Gate Lock Screen */}
+      <AccessGate />
     </div>
   );
 };
